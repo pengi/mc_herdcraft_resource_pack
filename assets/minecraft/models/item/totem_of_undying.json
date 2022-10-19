@@ -1,0 +1,56 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/totem_of_undying"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 14180001
+            },
+            "model": "pengi_test:totem_of_undying/totem1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180002
+            },
+            "model": "pengi_test:totem_of_undying/totem2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180003
+            },
+            "model": "pengi_test:totem_of_undying/totem3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180004
+            },
+            "model": "pengi_test:totem_of_undying/totem4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180005
+            },
+            "model": "pengi_test:totem_of_undying/totem5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180006
+            },
+            "model": "pengi_test:totem_of_undying/totem6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180007
+            },
+            "model": "pengi_test:totem_of_undying/totem7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180008
+            },
+            "model": "pengi_test:totem_of_undying/totem8"
+        }
+    ]
+}
