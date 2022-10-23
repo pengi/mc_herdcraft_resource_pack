@@ -9,6 +9,18 @@
                 "custom_model_data": 14180001
             },
             "model": "herdcraft:totem_of_undying/penguin"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14190001
+            },
+            "model": "herdcraft:totem_of_undying/totem_of_bobo"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14200001
+            },
+            "model": "herdcraft:totem_of_undying/moos_extra_life"
         }
     ]
 }

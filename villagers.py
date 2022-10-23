@@ -49,8 +49,9 @@ class Sale:
 
 
 class Villager:
-    def __init__(self, name, rotation, offers):
+    def __init__(self, name, biome, rotation, offers):
         self.name = name
+        self.biome = biome
         self.rotation = rotation
         self.offers = offers
 
@@ -62,7 +63,7 @@ class Villager:
             "NoAI": 1,
             "Invulnerable": 1,
             "VillagerData": {
-                "type": "plains",
+                "type": self.biome,
                 "profession": "mason",
                 "level": 6
             },
@@ -77,15 +78,25 @@ class Villager:
 
 
 villagers = [
-    Villager("Cheese Master", -90, [
+    Villager("Cheese Master", "jungle", -90, [
         Sale(("emerald", 1), None, ("pumpkin_pie", 1, 14170001, "Cheese")),
         Sale(("emerald", 1), None, ("pumpkin_pie", 1, 14170002, "Pizza")),
         Sale(("emerald", 1), None, ("pumpkin_pie", 1, 14170003, "Cheese Wheel")),
         Sale(("emerald", 5), None, ("cooked_porkchop", 1, 14170004, "Grilled Cheese"))
     ]),
-    Villager("Penguin King", 180, [
+    Villager("Penguin King", "plains", 180, [
         Sale(("totem_of_undying", 1), None,
              ("totem_of_undying", 1, 14180001, "Penguin of Undying")),
+        Sale(("totem_of_undying", 1), None, ("totem_of_undying", 1))
+    ]),
+    Villager("Bobo Brime Bames", "plains", 0, [
+        Sale(("totem_of_undying", 1), None,
+             ("totem_of_undying", 1, 14190001, "Totem of Bobo")),
+        Sale(("totem_of_undying", 1), None, ("totem_of_undying", 1))
+    ]),
+    Villager("Kingmooshelper", "plains", 0, [
+        Sale(("totem_of_undying", 1), None,
+             ("totem_of_undying", 1, 14200001, "Moo's Extra Life")),
         Sale(("totem_of_undying", 1), None, ("totem_of_undying", 1))
     ]),
 ]

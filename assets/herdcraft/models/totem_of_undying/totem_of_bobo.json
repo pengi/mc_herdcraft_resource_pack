@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "herdcraft:totem_of_undying/totem_of_bobo"
+    }
+}
