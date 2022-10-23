@@ -9,6 +9,7 @@ install: skip
 script:
 - zip -r herdcraft_resources.zip assets data pack.png pack.mcmeta
 - sha1sum herdcraft_resources.zip > herdcraft_resources.zip.sha1.txt
+- python villagers.py > villager_summons.txt
 
 deploy:
   provider: releases
@@ -17,6 +18,7 @@ deploy:
   file:
     - herdcraft_resources.zip
     - herdcraft_resources.zip.sha1.txt
+    - villager_summons.txt
   skip_cleanup: true
   on:
     tags: true
