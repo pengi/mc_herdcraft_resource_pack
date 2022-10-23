@@ -9,6 +9,18 @@
                 "custom_model_data": 14170001
             },
             "model": "herdcraft:pumpkin_pie/cheese"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14170002
+            },
+            "model": "herdcraft:pumpkin_pie/cheese_pizza"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14170003
+            },
+            "model": "herdcraft:pumpkin_pie/cheesewheel"
         }
     ]
 }

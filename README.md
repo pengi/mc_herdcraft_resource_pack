@@ -1,7 +1,13 @@
-# Minecraft Test Resource Pack
+# Resource pack for HerdCraft server
 
-This is not intended for any serious use, but for me learning to set up resource packs.
+Reasource pack for the HerdCraft SMP server
 
-I'm trying to keep it as "correct" as possible, while still learning, so go ahead and look for inspiration.
+## IDs
 
-The pack is public mostly to see if release functionality can be used for hosting the pack to clients using a direct link from server config
+| Item             | CustomModelData | Alternative    | Model                                                                           |
+| ---------------- | --------------- | -------------- | ------------------------------------------------------------------------------- |
+| pumpkin_pie      | 14170001        | cheese         | ![cheese](assets/herdcraft/textures/pumpkin_pie/cheese.png)                     |
+| pumpkin_pie      | 14170002        | cheese_pizza   | ![cheese_pizza](assets/herdcraft/textures/pumpkin_pie/cheese_pizza.png)         |
+| pumpkin_pie      | 14170003        | cheesewheel    | ![cheesewheel](assets/herdcraft/textures/pumpkin_pie/cheesewheel.png)           |
+| cooked_porkchop  | 14170004        | grilled_cheese | ![grilled_cheese](assets/herdcraft/textures/cooked_porkchop/grilled_cheese.png) |
+| totem_of_undying | 14180001        | penguin        | ![penguin](assets/herdcraft/textures/cooked_porkchop/penguin.png)               |

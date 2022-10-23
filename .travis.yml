@@ -8,7 +8,7 @@ install: skip
 
 script:
 - zip herdcraft_resources.zip assets data logo.png pack.mcmeta
-- sha1sum herdcraft_resources.zip > herdcraft_resources.zip.sha1
+- sha1sum herdcraft_resources.zip > herdcraft_resources.zip.sha1.txt
 
 deploy:
   provider: releases
@@ -16,7 +16,7 @@ deploy:
     secure: "E3IxVNiuBHPbcCTv+3QNmpIrUL/DwXPHSKJBmwV6uPPLga11il3htodYj4LGDqcGax3ih7H43oFkJ3kNlqPqtX1lpVOYTKxiz7ZmnZogDh+utPBukoOLhbQv0WDF6lxOxP0lYznPsoaYW2vGct5G0M4BWtV4VPhjnYRiELHfoqH1yUGDS2zeDiJtHbh99qOqJpNKGKjExrBqMGkytWsY53LQmu48diU6bmfuRUDpYBCPe7LKvKhi5iUmfvISjlles6WaD2ojJiz2Lyug2DD84khc6t8OihVfK176wsS1YhjmOIle7gPr6vU/TYxjzn/QJ+jteyqlPm7hem0ZXntorupXbB8OtCHQI/mrKLTa7VYvSEzwRHKDt52wgF+2jZZLA3TkG3NNuzlQkEdBwlpJ4N+MiahQw5WhF8FiQxAY9GoXguPowyuSjVoJ5aQ7Ub4L9ZE6EGVDfvEnjmT8geTRsGy0gU9mcDty4Jj6Ub9YUckvWVBJBqi7yJzJGlpfGVBTj/QQVAhC7YCSG3Y95ixZ57uZcF1w26osefvkyIInFiJ03cyj8mwtTqRpUoTI57YgQ1U0VogHupNiMW5dpHWvPKD1brqj7APvhye/0B7JFefml1oRuvVz6AdrpYezY3F+ssoGGSxZlJbDqyXcA28SoOT7frt2v2+Z4bIbHCBic2w="
   file:
     - herdcraft_resources.zip
-    - herdcraft_resources.zip.sha1
+    - herdcraft_resources.zip.sha1.txt
   skip_cleanup: true
   on:
     tags: true
