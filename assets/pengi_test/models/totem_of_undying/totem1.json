@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "pengi_test:totem_of_undying/totem_penguin"
-    }
-}

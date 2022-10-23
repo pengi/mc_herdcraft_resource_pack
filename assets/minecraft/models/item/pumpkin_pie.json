@@ -1,14 +1,14 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minecraft:item/totem_of_undying"
+        "layer0": "minecraft:item/pumpkin_pie"
     },
     "overrides": [
         {
             "predicate": {
-                "custom_model_data": 14180001
+                "custom_model_data": 14170001
             },
-            "model": "herdcraft:totem_of_undying/penguin"
+            "model": "herdcraft:pumpkin_pie/cheese"
         }
     ]
 }
