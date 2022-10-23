@@ -7,7 +7,7 @@ before_install:
 install: skip
 
 script:
-- zip herdcraft_resources.zip assets data logo.png pack.mcmeta
+- zip -r herdcraft_resources.zip assets data pack.png pack.mcmeta
 - sha1sum herdcraft_resources.zip > herdcraft_resources.zip.sha1.txt
 
 deploy:
