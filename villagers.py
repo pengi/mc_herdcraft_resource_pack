@@ -102,7 +102,7 @@ villagers = [
 ]
 
 for villager in villagers:
-    print()
+    print("")
     print("Villager: " + villager.name)
-    print()
+    print("")
     print(villager.summon())
