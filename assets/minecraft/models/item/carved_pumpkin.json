@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:block/carved_pumpkin",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 14180101
+            },
+            "model": "herdcraft:users/pengiswe/professor_hair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14170005
+            },
+            "model": "herdcraft:carved_pumpkin/hat_santa"
+        }
+    ]
+}
