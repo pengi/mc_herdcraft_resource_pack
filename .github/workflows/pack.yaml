@@ -1,0 +1,29 @@
+name: Packing
+on:
+  push:
+jobs:
+  pack:
+    runs-on:
+      - Linux
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build
+        run: |
+          rm -rf artifacts || true
+          mkdir -p artifacts
+          zip -r artifacts/herdcraft_resources.zip assets data pack.png pack.mcmeta
+          sha1sum artifacts/herdcraft_resources.zip > artifacts/herdcraft_resources.zip.sha1.txt
+          python3 villagers.py > artifacts/villager_summons.txt
+      - name: Dump text stats
+        run: |
+          cat artifacts/herdcraft_resources.zip.sha1.txt
+          cat artifacts/villager_summons.txt
+      - name: Upload to releases
+        uses: xresloader/upload-to-github-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "artifacts/*"
+          tags: true
+          draft: false
