@@ -99,6 +99,9 @@ villagers = [
              ("totem_of_undying", 1, 14200001, "Moo's Extra Life")),
         Sale(("totem_of_undying", 1), None, ("totem_of_undying", 1))
     ]),
+    Villager("Santa Claus", "plains", 0, [
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14170005, "Santas hat"))
+    ]),
 ]
 
 for villager in villagers:
