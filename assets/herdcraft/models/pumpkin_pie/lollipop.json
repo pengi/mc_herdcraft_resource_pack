@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "herdcraft:item/pumpkin_pie/lollipop",
+		"particle": "herdcraft:item/pumpkin_pie/lollipop"
+	},
+	"elements": [
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 9, 8.5],
+			"faces": {
+				"north": {"uv": [6, 2, 6.5, 6.5], "texture": "#0"},
+				"east": {"uv": [6.5, 2, 7, 6.5], "texture": "#0"},
+				"south": {"uv": [6, 6.5, 6.5, 11], "texture": "#0"},
+				"west": {"uv": [6.5, 6.5, 7, 11], "texture": "#0"},
+				"up": {"uv": [7.5, 2.5, 7, 2], "texture": "#0"},
+				"down": {"uv": [7.5, 2.5, 7, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 9, 7],
+			"to": [13, 19, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"east": {"uv": [5, 0, 6, 5], "texture": "#0"},
+				"south": {"uv": [0, 5, 5, 10], "texture": "#0"},
+				"west": {"uv": [5, 5, 6, 10], "texture": "#0"},
+				"up": {"uv": [11, 1, 6, 0], "texture": "#0"},
+				"down": {"uv": [11, 1, 6, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-14, -18, 0],
+			"translation": [0.25, 2.75, -1],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-14, -18, 0],
+			"translation": [0.25, 2.75, -1],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [11, -3, -16],
+			"translation": [0.75, 1, -0.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [11, -3, -16],
+			"translation": [0.75, 1, -0.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [30, -30, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [-31, 109, 37],
+			"translation": [6.25, -6.5, -7.75],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"translation": [0, -1.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
+}

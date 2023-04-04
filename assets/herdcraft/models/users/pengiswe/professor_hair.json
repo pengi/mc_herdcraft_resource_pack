@@ -3,8 +3,8 @@
 	"parent": "minecraft:item/carved_pumpkin",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "herdcraft:users/pengiswe/professor_hair",
-		"particle": "herdcraft:users/pengiswe/professor_hair"
+		"0": "herdcraft:item/users/pengiswe/professor_hair",
+		"particle": "herdcraft:item/users/pengiswe/professor_hair"
 	},
 	"elements": [
 		{

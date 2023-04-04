@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "herdcraft:cooked_porkchop/grilled_cheese"
+        "layer0": "herdcraft:item/cooked_porkchop/grilled_cheese"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "herdcraft:pumpkin_pie/cheese_pizza"
+        "layer0": "herdcraft:item/pumpkin_pie/cheese_pizza"
     }
 }

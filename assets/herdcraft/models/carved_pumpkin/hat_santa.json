@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "herdcraft:carved_pumpkin/hat_santa_white",
-		"1": "herdcraft:carved_pumpkin/hat_santa_red",
+		"0": "herdcraft:item/carved_pumpkin/hat_santa_white",
+		"1": "herdcraft:item/carved_pumpkin/hat_santa_red",
 		"particle": "hat_stanta"
 	},
 	"elements": [

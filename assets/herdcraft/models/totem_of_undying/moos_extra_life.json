@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "herdcraft:totem_of_undying/moos_extra_life"
+        "layer0": "herdcraft:item/totem_of_undying/moos_extra_life"
     }
 }
