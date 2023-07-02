@@ -25,6 +25,14 @@ class Sale:
         self.buyB = buyB
         self.sell = sell
 
+    def sale_nbt(self):
+        return {
+            "CustomModelData": self.sell[2] if len(self.sell) > 2 else None,
+            "display": {
+                "Name": nbt_text(self.sell[3])
+            } if len(self.sell) > 3 else None
+        }
+
     def outp(self):
         nbt = {
             "rewardExp": 0,
@@ -36,16 +44,19 @@ class Sale:
             "sell": {
                 "id": self.sell[0],
                 "Count": self.sell[1],
-                "tag": {
-                    "CustomModelData": self.sell[2] if len(self.sell) > 2 else None,
-                    "display": {
-                        "Name": nbt_text(self.sell[3])
-                    } if len(self.sell) > 3 else None
-                }
+                "tag": self.sale_nbt()
             }
         }
 
         return nbt
+
+    def is_custom(self):
+        return len(self.sell) > 2
+
+    def give(self):
+        return "give @p %s%s" % (self.sell[0], nbt_format(self.sale_nbt()))
+
+# give @p chest{BlockEntityTag:{Items:[{Slot:0,id:totem_of_undying,Count:1},{Slot:1,id:totem_of_undying,Count:1},{Slot:2,id:totem_of_undying,Count:1},{Slot:3,id:totem_of_undying,Count:1},{Slot:4,id:totem_of_undying,Count:1},{Slot:5,id:totem_of_undying,Count:1},{Slot:6,id:totem_of_undying,Count:1},{Slot:7,id:totem_of_undying,Count:1},{Slot:8,id:totem_of_undying,Count:1},{Slot:9,id:totem_of_undying,Count:1},{Slot:10,id:totem_of_undying,Count:1},{Slot:11,id:totem_of_undying,Count:1},{Slot:12,id:totem_of_undying,Count:1},{Slot:13,id:totem_of_undying,Count:1},{Slot:14,id:totem_of_undying,Count:1},{Slot:15,id:totem_of_undying,Count:1},{Slot:16,id:totem_of_undying,Count:1},{Slot:17,id:totem_of_undying,Count:1},{Slot:18,id:totem_of_undying,Count:1},{Slot:19,id:totem_of_undying,Count:1},{Slot:20,id:totem_of_undying,Count:1},{Slot:21,id:totem_of_undying,Count:1},{Slot:22,id:totem_of_undying,Count:1},{Slot:23,id:totem_of_undying,Count:1},{Slot:24,id:totem_of_undying,Count:1},{Slot:25,id:totem_of_undying,Count:1},{Slot:26,id:totem_of_undying,Count:1}]}}
 
 
 class Villager:
@@ -76,6 +87,9 @@ class Villager:
     def summon(self):
         return "summon minecraft:villager ~ ~1.5 ~ " + nbt_format(self.outp())
 
+    def gives(self):
+        return [offer.give() for offer in self.offers if offer.is_custom()]
+
 
 villagers = [
     Villager("Cheese Master", "jungle", -90, [
@@ -102,6 +116,8 @@ villagers = [
     Villager("Santa Claus", "plains", 0, [
         Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14170005, "Santas hat"))
     ]),
+    Villager("Everything else", "plains", 0, [
+    ]),
 ]
 
 for villager in villagers:
@@ -109,3 +125,6 @@ for villager in villagers:
     print("Villager: " + villager.name)
     print("")
     print(villager.summon())
+    print("")
+    for give_cmd in villager.gives():
+        print(give_cmd)
