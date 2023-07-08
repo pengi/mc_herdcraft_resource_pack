@@ -99,6 +99,7 @@ villagers = [
         Sale(("emerald", 5), None, ("cooked_porkchop", 1, 14170004, "Grilled Cheese"))
     ]),
     Villager("Penguin King", "plains", 180, [
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14180002, "Professor Hair")),
         Sale(("totem_of_undying", 1), None,
              ("totem_of_undying", 1, 14180001, "Penguin of Undying")),
         Sale(("totem_of_undying", 1), None, ("totem_of_undying", 1))
@@ -116,7 +117,16 @@ villagers = [
     Villager("Santa Claus", "plains", 0, [
         Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14170005, "Santas hat"))
     ]),
+    Villager("LandLand souvenirs", "plains", 0, [
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14210001, "Antennas")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14210002, "Gloria")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14210003, "Green Hat")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14210004, "Mooshroom Hat")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14210005, "Rainbow Pig Hat")),
+        Sale(("emerald", 1), None, ("beetroot_soup", 1, 14210006, "LandLand Ice Cream"))
+    ]),
     Villager("Everything else", "plains", 0, [
+        Sale(("emerald", 1), None, ("shield", 1, 14170006, "Mobile Router"))
     ]),
 ]
 

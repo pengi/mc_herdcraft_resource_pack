@@ -1,0 +1,51 @@
+
+Villager: Cheese Master
+
+summon minecraft:villager ~ ~1.5 ~ {CustomName:"{\"text\":\"Cheese Master\"}",CustomNameVisible:1,Rotation:[-90.0f,0.0f],NoAI:1,Invulnerable:1,VillagerData:{type:"jungle",profession:"mason",level:6},Offers:{Recipes:[{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"pumpkin_pie",Count:1,tag:{CustomModelData:14170001,display:{Name:"{\"text\":\"Cheese\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"pumpkin_pie",Count:1,tag:{CustomModelData:14170002,display:{Name:"{\"text\":\"Pizza\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"pumpkin_pie",Count:1,tag:{CustomModelData:14170003,display:{Name:"{\"text\":\"Cheese Wheel\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:5},sell:{id:"cooked_porkchop",Count:1,tag:{CustomModelData:14170004,display:{Name:"{\"text\":\"Grilled Cheese\"}"}}}}]}}
+
+give @p pumpkin_pie{CustomModelData:14170001,display:{Name:"{\"text\":\"Cheese\"}"}}
+give @p pumpkin_pie{CustomModelData:14170002,display:{Name:"{\"text\":\"Pizza\"}"}}
+give @p pumpkin_pie{CustomModelData:14170003,display:{Name:"{\"text\":\"Cheese Wheel\"}"}}
+give @p cooked_porkchop{CustomModelData:14170004,display:{Name:"{\"text\":\"Grilled Cheese\"}"}}
+
+Villager: Penguin King
+
+summon minecraft:villager ~ ~1.5 ~ {CustomName:"{\"text\":\"Penguin King\"}",CustomNameVisible:1,Rotation:[180.0f,0.0f],NoAI:1,Invulnerable:1,VillagerData:{type:"plains",profession:"mason",level:6},Offers:{Recipes:[{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"carved_pumpkin",Count:1,tag:{CustomModelData:14180002,display:{Name:"{\"text\":\"Professor Hair\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"totem_of_undying",Count:1},sell:{id:"totem_of_undying",Count:1,tag:{CustomModelData:14180001,display:{Name:"{\"text\":\"Penguin of Undying\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"totem_of_undying",Count:1},sell:{id:"totem_of_undying",Count:1,tag:{}}}]}}
+
+give @p carved_pumpkin{CustomModelData:14180002,display:{Name:"{\"text\":\"Professor Hair\"}"}}
+give @p totem_of_undying{CustomModelData:14180001,display:{Name:"{\"text\":\"Penguin of Undying\"}"}}
+
+Villager: Bobo Brime Bames
+
+summon minecraft:villager ~ ~1.5 ~ {CustomName:"{\"text\":\"Bobo Brime Bames\"}",CustomNameVisible:1,Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,VillagerData:{type:"plains",profession:"mason",level:6},Offers:{Recipes:[{rewardExp:0,maxUses:2147483647,buy:{id:"totem_of_undying",Count:1},sell:{id:"totem_of_undying",Count:1,tag:{CustomModelData:14190001,display:{Name:"{\"text\":\"Totem of Bobo\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"totem_of_undying",Count:1},sell:{id:"totem_of_undying",Count:1,tag:{}}}]}}
+
+give @p totem_of_undying{CustomModelData:14190001,display:{Name:"{\"text\":\"Totem of Bobo\"}"}}
+
+Villager: Kingmooshelper
+
+summon minecraft:villager ~ ~1.5 ~ {CustomName:"{\"text\":\"Kingmooshelper\"}",CustomNameVisible:1,Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,VillagerData:{type:"plains",profession:"mason",level:6},Offers:{Recipes:[{rewardExp:0,maxUses:2147483647,buy:{id:"totem_of_undying",Count:1},sell:{id:"totem_of_undying",Count:1,tag:{CustomModelData:14200001,display:{Name:"{\"text\":\"Moo's Extra Life\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"totem_of_undying",Count:1},sell:{id:"totem_of_undying",Count:1,tag:{}}}]}}
+
+give @p totem_of_undying{CustomModelData:14200001,display:{Name:"{\"text\":\"Moo's Extra Life\"}"}}
+
+Villager: Santa Claus
+
+summon minecraft:villager ~ ~1.5 ~ {CustomName:"{\"text\":\"Santa Claus\"}",CustomNameVisible:1,Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,VillagerData:{type:"plains",profession:"mason",level:6},Offers:{Recipes:[{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"carved_pumpkin",Count:1,tag:{CustomModelData:14170005,display:{Name:"{\"text\":\"Santas hat\"}"}}}}]}}
+
+give @p carved_pumpkin{CustomModelData:14170005,display:{Name:"{\"text\":\"Santas hat\"}"}}
+
+Villager: LandLand souvenirs
+
+summon minecraft:villager ~ ~1.5 ~ {CustomName:"{\"text\":\"LandLand souvenirs\"}",CustomNameVisible:1,Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,VillagerData:{type:"plains",profession:"mason",level:6},Offers:{Recipes:[{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"carved_pumpkin",Count:1,tag:{CustomModelData:14210001,display:{Name:"{\"text\":\"Antennas\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"carved_pumpkin",Count:1,tag:{CustomModelData:14210002,display:{Name:"{\"text\":\"Gloria\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"carved_pumpkin",Count:1,tag:{CustomModelData:14210003,display:{Name:"{\"text\":\"Green Hat\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"carved_pumpkin",Count:1,tag:{CustomModelData:14210004,display:{Name:"{\"text\":\"Mooshroom Hat\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"carved_pumpkin",Count:1,tag:{CustomModelData:14210005,display:{Name:"{\"text\":\"Rainbow Pig Hat\"}"}}}},{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"beetroot_soup",Count:1,tag:{CustomModelData:14210006,display:{Name:"{\"text\":\"LandLand Ice Cream\"}"}}}}]}}
+
+give @p carved_pumpkin{CustomModelData:14210001,display:{Name:"{\"text\":\"Antennas\"}"}}
+give @p carved_pumpkin{CustomModelData:14210002,display:{Name:"{\"text\":\"Gloria\"}"}}
+give @p carved_pumpkin{CustomModelData:14210003,display:{Name:"{\"text\":\"Green Hat\"}"}}
+give @p carved_pumpkin{CustomModelData:14210004,display:{Name:"{\"text\":\"Mooshroom Hat\"}"}}
+give @p carved_pumpkin{CustomModelData:14210005,display:{Name:"{\"text\":\"Rainbow Pig Hat\"}"}}
+give @p beetroot_soup{CustomModelData:14210006,display:{Name:"{\"text\":\"LandLand Ice Cream\"}"}}
+
+Villager: Everything else
+
+summon minecraft:villager ~ ~1.5 ~ {CustomName:"{\"text\":\"Everything else\"}",CustomNameVisible:1,Rotation:[0.0f,0.0f],NoAI:1,Invulnerable:1,VillagerData:{type:"plains",profession:"mason",level:6},Offers:{Recipes:[{rewardExp:0,maxUses:2147483647,buy:{id:"emerald",Count:1},sell:{id:"shield",Count:1,tag:{CustomModelData:14170006,display:{Name:"{\"text\":\"Mobile Router\"}"}}}}]}}
+
+give @p shield{CustomModelData:14170006,display:{Name:"{\"text\":\"Mobile Router\"}"}}

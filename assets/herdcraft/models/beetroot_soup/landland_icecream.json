@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "herdcraft:item/beetroot_soup/icecream",
-		"particle": "herdcraft:item/beetroot_soup/icecream"
+		"0": "herdcraft:item/beetroot_soup/landland_icecream",
+		"particle": "herdcraft:item/beetroot_soup/landland_icecream"
 	},
 	"elements": [
 		{

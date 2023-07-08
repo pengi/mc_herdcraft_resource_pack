@@ -24,6 +24,48 @@
                 "custom_model_data": 14170007
             },
             "model": "herdcraft:carved_pumpkin/antennas"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14180002
+            },
+            "model": "herdcraft:users/pengiswe/professor_hair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14210001
+            },
+            "model": "herdcraft:carved_pumpkin/antennas"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14210002
+            },
+            "model": "herdcraft:carved_pumpkin/gloria"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14210003
+            },
+            "model": "herdcraft:carved_pumpkin/hat_green"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14210004
+            },
+            "model": "herdcraft:carved_pumpkin/mooshroom_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14210005
+            },
+            "model": "herdcraft:carved_pumpkin/rainbow_pig_hat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14210006
+            },
+            "model": "herdcraft:carved_pumpkin/antennas"
         }
     ]
 }
