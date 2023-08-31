@@ -31,3 +31,10 @@ All mapped to carved_pumpkin instead of original flint
 |        10110021 | sebxter:cosmetics/hats_1/hat_7 |
 |        10110022 | sebxter:cosmetics/hats_1/hat_8 |
 |        10110023 | sebxter:cosmetics/hats_1/hat_9 |
+
+### More armor trims
+
+Source: https://www.planetminecraft.com/data-pack/more-armor-trim-materials/
+
+Added the resource pack part of the non-glow version. Check them out for more
+information
