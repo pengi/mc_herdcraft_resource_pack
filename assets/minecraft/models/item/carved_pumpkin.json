@@ -3,6 +3,60 @@
     "overrides": [
         {
             "predicate": {
+                "custom_model_data": 10110015
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110016
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110017
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110018
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110019
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_5"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110020
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_6"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110021
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_7"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110022
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_8"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10110023
+            },
+            "model": "sebxter:cosmetics/hats_1/hat_9"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 14180101
             },
             "model": "herdcraft:users/pengiswe/professor_hair"
