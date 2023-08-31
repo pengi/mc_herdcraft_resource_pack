@@ -125,6 +125,17 @@ villagers = [
         Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14210005, "Rainbow Pig Hat")),
         Sale(("emerald", 1), None, ("beetroot_soup", 1, 14210006, "LandLand Ice Cream"))
     ]),
+    Villager("sebxter hats", "plains", 0, [
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110015, "Hat 1")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110016, "Hat 2")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110017, "Hat 3")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110018, "Hat 4")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110019, "Hat 5")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110020, "Hat 6")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110021, "Hat 7")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110022, "Hat 8")),
+        Sale(("emerald", 1), None, ("carved_pumpkin", 1, 10110023, "Hat 9")),
+    ]),
     Villager("Everything else", "plains", 0, [
         Sale(("emerald", 1), None, ("shield", 1, 14170006, "Mobile Router"))
     ]),
