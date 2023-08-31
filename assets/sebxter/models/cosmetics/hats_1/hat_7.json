@@ -2,7 +2,7 @@
 	"credit": "www.sebxter.pl",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "sebxter:cosmetics/hats_1/hat_7"
+		"1": "sebxter:item/hats_1/hat_7"
 	},
 	"elements": [
 		{
