@@ -12,6 +12,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 14180002
+            },
+            "model": "herdcraft:totem_of_undying/party_popper"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 14190001
             },
             "model": "herdcraft:totem_of_undying/totem_of_bobo"

@@ -102,6 +102,8 @@ villagers = [
         Sale(("emerald", 1), None, ("carved_pumpkin", 1, 14180002, "Professor Hair")),
         Sale(("totem_of_undying", 1), None,
              ("totem_of_undying", 1, 14180001, "Penguin of Undying")),
+        Sale(("totem_of_undying", 1), None,
+             ("totem_of_undying", 1, 14180002, "Party Popper")),
         Sale(("totem_of_undying", 1), None, ("totem_of_undying", 1))
     ]),
     Villager("Bobo Brime Bames", "plains", 0, [
